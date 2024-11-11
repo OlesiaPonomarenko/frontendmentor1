@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(8, 8, 8);
+}
+
+.container {
+    background-color: rgb(37, 36, 36);
+    width: 280px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+
+@media screen and (min-width: 768px) {
+.container {
+    background-color: rgb(37, 36, 36);
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+}
+
+ .btn {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    width: 250px;
+    background-color: rgb(47, 45, 45);
+    color: rgb(237, 232, 232);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+
+button:hover {
+background-color: rgb(217, 226, 43);
+color: rgb(47, 45, 45);
+cursor: url('./assets/images/cursor.png'), pointer;
+}
+
+.imgcirle {
+    border-radius: 50%;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.city {
+    color: rgb(217, 226, 43);
+    margin: 5px;
+    font-family: sans-serif;
+}
+
+h2 {
+    color: rgb(237, 232, 232);
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.anketa {
+    margin: 0 auto;
+    text-align: center;
+}
+
+p {
+    color: rgb(237, 232, 232);
+    font-family: sans-serif;
+    font-size: 12px;
+}
